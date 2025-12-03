@@ -11,7 +11,7 @@ export default defineConfig({
     svgr({
       svgrOptions: {
         icon: true,
-        exportType: "named",
+        exportType: "named", 
         namedExport: "ReactComponent",
       },
     }),
